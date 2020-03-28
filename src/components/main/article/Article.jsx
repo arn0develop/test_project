@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import skip from "./../../../assets/images/skip.png";
+import skip from "./../../../assets/images/Dropdown (2).svg";
 import check from "./../../../assets/images/Dropdown.svg";
 import checked from "./../../../assets/images/Dropdown (1).svg";
 
@@ -78,6 +78,7 @@ const Article = () => {
         </button>
       </section>
       <section className="skip">
+        <b>Skip Question</b>
         <button className="prevButton">
           <img src={skip} alt="skip" />
         </button>
