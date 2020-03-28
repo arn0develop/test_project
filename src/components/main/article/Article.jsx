@@ -79,9 +79,7 @@ const Article = () => {
       </section>
       <section className="skip">
         <b>Skip Question</b>
-        <button className="prevButton">
-          <img src={skip} alt="skip" />
-        </button>
+        <img src={skip} alt="skip" className="dropDownIcon" />
       </section>
     </article>
   );

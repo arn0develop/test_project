@@ -72,17 +72,16 @@
         background-color: $primary_purple;
         color: $primary_white;
       }
-      .prevButton {
-        background-color: $secondary_light;
-      }
     }
     .skip {
       text-align: center;
       border-top: 1px solid $secondary_medium;
-      button {
-        background-color: inherit;
-        padding: 12px 24px;
-        border-radius: 17px;
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      text-align: end;
+      .dropDownIcon {
+        padding: 15px 20px;
       }
     }
   }
