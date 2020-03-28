@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import skip from "./../../../assets/images/skip.png";
-import check from "./../../../assets/images/check.png";
-import checked from "./../../../assets/images/checked.png";
+import check from "./../../../assets/images/Dropdown.svg";
+import checked from "./../../../assets/images/Dropdown (1).svg";
 
 const Article = () => {
   const [answerId, setAnswerId] = useState(null);
